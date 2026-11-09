@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f7f2ec;
+}
+
+header {
+    background: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+}
+
+nav h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #c0533e;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.hero {
+    background: rgb(206, 48, 48);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: black;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+section {
+    width: 70%;
+    margin: 40px auto;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #c0533e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    text-align: right;
+}
+
+figure {
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 5px 0;
+}
+
+/* section p {
+    float: right;
+    width:  300px;
+} */
+
+section p {
+   margin-top: 50px;
+
+}
+
+
+footer {
+    background: black;
+    color: gray;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p, footer span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+ 
+
+
+
+
+

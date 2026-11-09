@@ -2,7 +2,7 @@
 
 A website for a neighborhood barbershop on Warren Street, built from scratch with HTML, CSS, and Flexbox.
 
-![Barbershop website screenshot](img/screenshot.png)
+
 
 **Live site:** [add link here]
 
